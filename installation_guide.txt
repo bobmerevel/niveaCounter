@@ -1,2 +1,17 @@
 Bu site react js ile yazıldı. Admin panel için firebase realtime database kulllanıldı. 
 Eğer firebase için farklı bir proje kurulup çalıştırılmak isternirse firebaseConfig.js dosyasının değiştirilmesi gerekecek.
+
+Realtime Database structure aşağıdaki gibi. Bu direk firebase json import ile db'ye import edilirse yeni DB'den çalışmaya başlar
+
+{
+  "kpis" : {
+    "deoValue" : 210,
+    "eValue" : 210,
+    "faceValue" : 200,
+    "m1Value" : 210,
+    "nsValue" : 210
+  },
+  "playVideo" : true,
+  "targetCityId" : 745044,
+  "targetDate" : "2020-01-01"
+}

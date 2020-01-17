@@ -1,0 +1,2 @@
+Bu site react js ile yazıldı. Admin panel için firebase realtime database kulllanıldı. 
+Eğer firebase için farklı bir proje kurulup çalıştırılmak isternirse firebaseConfig.js dosyasının değiştirilmesi gerekecek.
